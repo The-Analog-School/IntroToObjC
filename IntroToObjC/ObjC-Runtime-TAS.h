@@ -10,4 +10,7 @@
 
 @interface ObjC_Runtime_TAS : NSObject
 
++ (void)testCallingMethodThatDoesntExist;
++ (void)testAddingAMethodToClass;
+
 @end

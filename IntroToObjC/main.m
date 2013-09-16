@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "NSString-TAS.h"
+#import "ObjC-Runtime-TAS.h"
 
 int main(int argc, const char * argv[])
 {
@@ -17,8 +18,11 @@ int main(int argc, const char * argv[])
         
 //        [NSString_TAS testStringEquality1];
 //        [NSString_TAS testStringEquality2];
-        [NSString_TAS testStringEquality3];
+//        [NSString_TAS testStringEquality3];
 //        [NSString_TAS testStringMemoryAddresses];
+        
+//        [ObjC_Runtime_TAS testCallingMethodThatDoesntExist];
+//        [ObjC_Runtime_TAS testAddingAMethodToClass];
         
     }
     return 0;
