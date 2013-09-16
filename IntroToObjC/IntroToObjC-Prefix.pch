@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IntroToObjC' target in the 'IntroToObjC' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
