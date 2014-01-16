@@ -22,6 +22,8 @@
     NSString *stringLiteral1 = @"hello there";
     NSString *stringLiteral2 = @"hello there";
     
+    NSString *stringNormal2 = [[[NSAttributedString alloc] initWithString:stringNormal1] string];
+    
     if (stringNormal1 == stringLiteral1) {
         NSLog(@"SN1 and SL1 are equal");
     }
@@ -34,6 +36,13 @@
     }
     else {
         NSLog(@"SL1 and SL2 are not equal");
+    }
+    
+    if (stringNormal1 == stringNormal2) {
+        NSLog(@"SN1 and SN2 are equal");
+    }
+    else {
+        NSLog(@"SN1 and SN2 are not equal");
     }
 }
 
