@@ -10,6 +10,11 @@
 
 @interface ObjC_Runtime_TAS : NSObject
 
++ (void)getTheClassOfAnObject;
++ (void)printNamesOfClasses;
++ (void)createClassesFromStrings;
++ (void)testEqualityOfClasses;
+
 + (void)testCallingMethodThatDoesntExist;
 + (void)testAddingAMethodToClass;
 

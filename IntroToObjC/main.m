@@ -21,6 +21,11 @@ int main(int argc, const char * argv[])
 //        [NSString_TAS testStringEquality3];
 //        [NSString_TAS testStringMemoryAddresses];
         
+        [ObjC_Runtime_TAS getTheClassOfAnObject];
+        [ObjC_Runtime_TAS printNamesOfClasses];
+        [ObjC_Runtime_TAS createClassesFromStrings];
+        [ObjC_Runtime_TAS testEqualityOfClasses];
+        
 //        [ObjC_Runtime_TAS testCallingMethodThatDoesntExist];
 //        [ObjC_Runtime_TAS testAddingAMethodToClass];
         
