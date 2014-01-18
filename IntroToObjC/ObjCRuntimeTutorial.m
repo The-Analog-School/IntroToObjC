@@ -1,15 +1,15 @@
 //
-//  ObjC-Runtime-TAS.m
+//  ObjCRuntimeTutorial.m
 //  IntroToObjC
 //
 //  Created by Christopher Constable on 9/16/13.
-//  Copyright (c) 2013 AnalogSchool. All rights reserved.
+//  Copyright (c) 2013 The Analog School. All rights reserved.
 //
 
-#import "ObjC-Runtime-TAS.h"
+#import "ObjCRuntimeTutorial.h"
 #include <objc/runtime.h>
 
-@implementation ObjC_Runtime_TAS
+@implementation ObjCRuntimeTutorial
 
 + (void)getTheClassOfAnObject
 {
@@ -192,7 +192,7 @@
     class_addMethod([NSObject class], selector, implementation, "v@:@");
     
     // Now, this should work
-    [ObjC_Runtime_TAS testCallingMethodThatDoesntExist];
+    [ObjCRuntimeTutorial testCallingMethodThatDoesntExist];
 }
 
 @end

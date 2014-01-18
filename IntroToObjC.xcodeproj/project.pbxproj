@@ -10,8 +10,10 @@
 		7412342B17E6ADDF00010A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7412342A17E6ADDF00010A5A /* Foundation.framework */; };
 		7412342E17E6ADDF00010A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412342D17E6ADDF00010A5A /* main.m */; };
 		7412343217E6ADDF00010A5A /* IntroToObjC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7412343117E6ADDF00010A5A /* IntroToObjC.1 */; };
-		7412343A17E6AE1200010A5A /* NSString-TAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412343917E6AE1200010A5A /* NSString-TAS.m */; };
-		7412343D17E6B9E500010A5A /* ObjC-Runtime-TAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412343C17E6B9E500010A5A /* ObjC-Runtime-TAS.m */; };
+		7412343A17E6AE1200010A5A /* NSStringTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412343917E6AE1200010A5A /* NSStringTutorial.m */; };
+		7412343D17E6B9E500010A5A /* ObjCRuntimeTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412343C17E6B9E500010A5A /* ObjCRuntimeTutorial.m */; };
+		74CF10961889C269006FEAC1 /* NSLogTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF10951889C269006FEAC1 /* NSLogTutorial.m */; };
+		74CF10991889C5A9006FEAC1 /* NSObjectTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF10981889C5A9006FEAC1 /* NSObjectTutorial.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,10 +35,14 @@
 		7412342D17E6ADDF00010A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7412343017E6ADDF00010A5A /* IntroToObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntroToObjC-Prefix.pch"; sourceTree = "<group>"; };
 		7412343117E6ADDF00010A5A /* IntroToObjC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IntroToObjC.1; sourceTree = "<group>"; };
-		7412343817E6AE1200010A5A /* NSString-TAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-TAS.h"; sourceTree = "<group>"; };
-		7412343917E6AE1200010A5A /* NSString-TAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-TAS.m"; sourceTree = "<group>"; };
-		7412343B17E6B9E500010A5A /* ObjC-Runtime-TAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjC-Runtime-TAS.h"; sourceTree = "<group>"; };
-		7412343C17E6B9E500010A5A /* ObjC-Runtime-TAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjC-Runtime-TAS.m"; sourceTree = "<group>"; };
+		7412343817E6AE1200010A5A /* NSStringTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringTutorial.h; sourceTree = "<group>"; };
+		7412343917E6AE1200010A5A /* NSStringTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringTutorial.m; sourceTree = "<group>"; };
+		7412343B17E6B9E500010A5A /* ObjCRuntimeTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCRuntimeTutorial.h; sourceTree = "<group>"; };
+		7412343C17E6B9E500010A5A /* ObjCRuntimeTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCRuntimeTutorial.m; sourceTree = "<group>"; };
+		74CF10941889C269006FEAC1 /* NSLogTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogTutorial.h; sourceTree = "<group>"; };
+		74CF10951889C269006FEAC1 /* NSLogTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogTutorial.m; sourceTree = "<group>"; };
+		74CF10971889C5A9006FEAC1 /* NSObjectTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectTutorial.h; sourceTree = "<group>"; };
+		74CF10981889C5A9006FEAC1 /* NSObjectTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectTutorial.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				7412342D17E6ADDF00010A5A /* main.m */,
-				7412343817E6AE1200010A5A /* NSString-TAS.h */,
-				7412343917E6AE1200010A5A /* NSString-TAS.m */,
-				7412343B17E6B9E500010A5A /* ObjC-Runtime-TAS.h */,
-				7412343C17E6B9E500010A5A /* ObjC-Runtime-TAS.m */,
+				74CF109A1889C5B6006FEAC1 /* Tutorials */,
 				7412343117E6ADDF00010A5A /* IntroToObjC.1 */,
 				7412342F17E6ADDF00010A5A /* Supporting Files */,
 			);
@@ -96,6 +99,21 @@
 				7412343017E6ADDF00010A5A /* IntroToObjC-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74CF109A1889C5B6006FEAC1 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				74CF10941889C269006FEAC1 /* NSLogTutorial.h */,
+				74CF10951889C269006FEAC1 /* NSLogTutorial.m */,
+				74CF10971889C5A9006FEAC1 /* NSObjectTutorial.h */,
+				74CF10981889C5A9006FEAC1 /* NSObjectTutorial.m */,
+				7412343817E6AE1200010A5A /* NSStringTutorial.h */,
+				7412343917E6AE1200010A5A /* NSStringTutorial.m */,
+				7412343B17E6B9E500010A5A /* ObjCRuntimeTutorial.h */,
+				7412343C17E6B9E500010A5A /* ObjCRuntimeTutorial.m */,
+			);
+			name = Tutorials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7412342E17E6ADDF00010A5A /* main.m in Sources */,
-				7412343A17E6AE1200010A5A /* NSString-TAS.m in Sources */,
-				7412343D17E6B9E500010A5A /* ObjC-Runtime-TAS.m in Sources */,
+				7412343A17E6AE1200010A5A /* NSStringTutorial.m in Sources */,
+				7412343D17E6B9E500010A5A /* ObjCRuntimeTutorial.m in Sources */,
+				74CF10961889C269006FEAC1 /* NSLogTutorial.m in Sources */,
+				74CF10991889C5A9006FEAC1 /* NSObjectTutorial.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +276,7 @@
 				7412343717E6ADDF00010A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

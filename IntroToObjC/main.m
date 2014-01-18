@@ -3,33 +3,74 @@
 //  IntroToObjC
 //
 //  Created by Christopher Constable on 9/15/13.
-//  Copyright (c) 2013 AnalogSchool. All rights reserved.
+//  Copyright (c) 2013 The Analog School. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#import "NSString-TAS.h"
-#import "ObjC-Runtime-TAS.h"
+#import "NSLogTutorial.h"
+#import "NSObjectTutorial.h"
+#import "NSStringTutorial.h"
+#import "NSArrayTutorial.h"
+#import "ObjCRuntimeTutorial.h"
 
+// Every Obj-C program (even an iOS app) starts with this declaration:
+// the main function. Notice this is a C-style function.
 int main(int argc, const char * argv[])
 {
 
+    // The autoreleasepool sounds mysterious but really all it does is
+    // tells the Obj-C compiler and runtime to automatically handle
+    // allocating and deallocating memory for us.
     @autoreleasepool {
         
-//        [NSString_TAS testStringEquality1];
-//        [NSString_TAS testStringEquality2];
-//        [NSString_TAS testStringEquality3];
-//        [NSString_TAS testStringMemoryAddresses];
+        // Here are two shortcuts that are going to help you:
+        // "cmd + k" comments/uncomments lines of code
+        // "cmd + right-click" brings you to the implementation of a method.
+        //
+        // Use these shortcuts to uncomment the methods to see the output
+        // and inspect them.
+       
+        //
+        // Logging
+        //
         
-        [ObjC_Runtime_TAS getTheClassOfAnObject];
-        [ObjC_Runtime_TAS printNamesOfClasses];
-        [ObjC_Runtime_TAS createClassesFromStrings];
-        [ObjC_Runtime_TAS testEqualityOfClasses];
+//        [NSLogTutorial formattingNSLog];
         
-//        [ObjC_Runtime_TAS testCallingMethodThatDoesntExist];
-//        [ObjC_Runtime_TAS testAddingAMethodToClass];
+        //
+        // Object Instantiation
+        //
+        
+//        [NSObjectTutorial objectInstantiation];
+        
+        //
+        // Strings
+        //
+        
+//        [NSStringTutorial createStrings];
+//        [NSStringTutorial testStringEquality1];
+//        [NSStringTutorial testStringEquality2];
+//        [NSStringTutorial testStringEquality3];
+//        [NSStringTutorial testStringMemoryAddresses];
+        
+        //
+        // The Objective-C Runtime
+        //
+        
+//        [ObjCRuntimeTutorial getTheClassOfAnObject];
+//        [ObjCRuntimeTutorial printNamesOfClasses];
+//        [ObjCRuntimeTutorial createClassesFromStrings];
+//        [ObjCRuntimeTutorial testEqualityOfClasses];
+        
+        // This method will cause the program to crash
+//        [ObjCRuntimeTutorial testCallingMethodThatDoesntExist];
+        
+//        [ObjCRuntimeTutorial testAddingAMethodToClass];
         
     }
+    
+    // Like C, returning 0 from main signifies that the app has
+    // exited without error.
     return 0;
 }
 

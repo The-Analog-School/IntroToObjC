@@ -1,15 +1,40 @@
 //
-//  NSString-TAS.m
+//  NSStringTutorial.m
 //  IntroToObjC
 //
 //  Created by Christopher Constable on 9/15/13.
-//  Copyright (c) 2013 AnalogSchool. All rights reserved.
+//  Copyright (c) 2013 The Analog School. All rights reserved.
 //
 
-#import "NSString-TAS.h"
+#import "NSStringTutorial.h"
 
-@implementation NSString_TAS
+@implementation NSStringTutorial
 
+
+
+
++ (void)createStrings
+{
+    // Using a "C style" string.
+    // You won't need to create strings like this very much. It's
+    // a lot of typing right? You'll usually encounter char * type
+    // strings when interfacing with C APIs.
+    char *cString = "I'm an old-fashioned C string!\0";
+    NSString *objcString = [[NSString alloc] initWithCString:cString
+                                                    encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", objcString);
+    
+    // Using the "string literal".
+    // This is a common and easy way to create strings from text.
+    NSString *stringLiteral = @"That was easy.";
+    NSLog(@"%@", stringLiteral);
+    
+    // Using a "formatted string".
+    // Often times, strings need to be created dynamically with variable
+    // data. Using "stringWithFormat:" is how we accomplish this.
+    NSString *formattedString = [NSString stringWithFormat:@"Today's date is %@", [NSDate date]];
+    NSLog(@"%@", formattedString);
+}
 
 
 
@@ -17,7 +42,7 @@
 
 + (void)testStringEquality1
 {
-    NSString *stringNormal1 = [[NSString alloc] initWithCString:"hello there"
+    NSString *stringNormal1 = [[NSString alloc] initWithCString:"hello there\0"
                                                       encoding:NSUTF8StringEncoding];
     NSString *stringLiteral1 = @"hello there";
     NSString *stringLiteral2 = @"hello there";

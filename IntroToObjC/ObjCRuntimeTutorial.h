@@ -1,14 +1,14 @@
 //
-//  ObjC-Runtime-TAS.h
+//  ObjCRuntimeTutorial.h
 //  IntroToObjC
 //
 //  Created by Christopher Constable on 9/16/13.
-//  Copyright (c) 2013 AnalogSchool. All rights reserved.
+//  Copyright (c) 2013 The Analog School. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface ObjC_Runtime_TAS : NSObject
+@interface ObjCRuntimeTutorial : NSObject
 
 + (void)getTheClassOfAnObject;
 + (void)printNamesOfClasses;
