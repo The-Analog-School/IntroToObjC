@@ -12,6 +12,7 @@
 		7412343217E6ADDF00010A5A /* IntroToObjC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7412343117E6ADDF00010A5A /* IntroToObjC.1 */; };
 		7412343A17E6AE1200010A5A /* NSStringTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412343917E6AE1200010A5A /* NSStringTutorial.m */; };
 		7412343D17E6B9E500010A5A /* ObjCRuntimeTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412343C17E6B9E500010A5A /* ObjCRuntimeTutorial.m */; };
+		74CF10931889BB17006FEAC1 /* NSArrayTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF10921889BB17006FEAC1 /* NSArrayTutorial.m */; };
 		74CF10961889C269006FEAC1 /* NSLogTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF10951889C269006FEAC1 /* NSLogTutorial.m */; };
 		74CF10991889C5A9006FEAC1 /* NSObjectTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF10981889C5A9006FEAC1 /* NSObjectTutorial.m */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 		7412343917E6AE1200010A5A /* NSStringTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringTutorial.m; sourceTree = "<group>"; };
 		7412343B17E6B9E500010A5A /* ObjCRuntimeTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCRuntimeTutorial.h; sourceTree = "<group>"; };
 		7412343C17E6B9E500010A5A /* ObjCRuntimeTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCRuntimeTutorial.m; sourceTree = "<group>"; };
+		74CF10911889BB17006FEAC1 /* NSArrayTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayTutorial.h; sourceTree = "<group>"; };
+		74CF10921889BB17006FEAC1 /* NSArrayTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTutorial.m; sourceTree = "<group>"; };
 		74CF10941889C269006FEAC1 /* NSLogTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogTutorial.h; sourceTree = "<group>"; };
 		74CF10951889C269006FEAC1 /* NSLogTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogTutorial.m; sourceTree = "<group>"; };
 		74CF10971889C5A9006FEAC1 /* NSObjectTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectTutorial.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				74CF10981889C5A9006FEAC1 /* NSObjectTutorial.m */,
 				7412343817E6AE1200010A5A /* NSStringTutorial.h */,
 				7412343917E6AE1200010A5A /* NSStringTutorial.m */,
+				74CF10911889BB17006FEAC1 /* NSArrayTutorial.h */,
+				74CF10921889BB17006FEAC1 /* NSArrayTutorial.m */,
 				7412343B17E6B9E500010A5A /* ObjCRuntimeTutorial.h */,
 				7412343C17E6B9E500010A5A /* ObjCRuntimeTutorial.m */,
 			);
@@ -167,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CF10931889BB17006FEAC1 /* NSArrayTutorial.m in Sources */,
 				7412342E17E6ADDF00010A5A /* main.m in Sources */,
 				7412343A17E6AE1200010A5A /* NSStringTutorial.m in Sources */,
 				7412343D17E6B9E500010A5A /* ObjCRuntimeTutorial.m in Sources */,
